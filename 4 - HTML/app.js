@@ -17,4 +17,6 @@ app.get('/', (req, res) => {
 // mas neste caso é uma função, simples, a rota irá simplesmente enviar o arquivo "index.html"
 
 
-app.listen(4343);
+app.listen(4343, function(){
+    console.log('Testeee')
+});
