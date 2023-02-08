@@ -1,3 +1,20 @@
+## Parâmetros padrões
+```js
+const http = require('http')
+http.createServer(function(req, res){
+    // TUDO O QUE O NOSSO SERVIDOR IRÁ RODAR
+})
+``` 
+O primeiro parâmetro é o "req"
+* Significa "requerimento". É quando o SERVIDOR está recebendo informações do cliente
+
+</br>
+
+O segundo parâmetro é o "res"
+* Significa "resposta". É a resposta que o SERVIDOR da para o cliente
+
+// REQ = A gente recebe    |   RES = A gente retorna 
+
 ## Importância e obrigatoriedade do "end()"
 Uma das propostas do SERVIDOR feito aqui pelo NODE, é principalmente a segurança que temos.
 Você pode ver que, criamos um localhost, e mesmo alterando a string aqui dentro do VS code e dando um F5 na página do "localhost:4242", o que está lá não irá mudar. 
