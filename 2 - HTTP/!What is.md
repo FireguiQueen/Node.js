@@ -13,7 +13,11 @@ O primeiro parâmetro é o "req"
 O segundo parâmetro é o "res"
 * Significa "resposta". É a resposta que o SERVIDOR da para o cliente
 
-// REQ = A gente recebe    |   RES = A gente retorna 
+> REQ = A gente recebe    |   RES = A gente retorna 
+
+</br>
+
+____________________________________________________________________
 
 ## Importância e obrigatoriedade do `end()`
 Uma das propostas do SERVIDOR feito aqui pelo NODE, é principalmente a segurança que temos.
