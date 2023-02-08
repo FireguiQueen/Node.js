@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(24, 23, 23), rgb(29, 29, 86));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    filter:drop-shadow(13px 13px rgba(244, 235, 235, 0.046))
+}
