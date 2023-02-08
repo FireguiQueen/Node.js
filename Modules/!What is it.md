@@ -1,0 +1,2 @@
+# Módulos
+Módulos em JavaScript são uma forma de organizar e reutilizar código em aplicações grandes. Eles permitem que você divida seu aplicativo em módulos independentes, cada um com seus próprios recursos, que podem ser compartilhados com outros módulos. Os módulos podem ser importados em outros módulos ou arquivos usando a sintaxe de importação/exportação. Este padrão de design ajuda a manter o código limpo, organizado e fácil de gerenciar.
