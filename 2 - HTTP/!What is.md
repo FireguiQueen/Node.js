@@ -13,7 +13,7 @@ O primeiro parâmetro é o "req"
 O segundo parâmetro é o "res"
 * Significa "resposta". É a resposta que o SERVIDOR da para o cliente
 
-> REQ = A gente recebe    |   RES = A gente retorna 
+> REQ = O servidor recebe uma informação    |   RES = O servidor retorna uma resposta 
 
 </br>
 
