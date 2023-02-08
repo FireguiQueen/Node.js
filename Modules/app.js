@@ -10,7 +10,6 @@ const somar = calcs.sum
 
 // Realizando alguns testes
 console.log(somar(4,5))
-
 console.log(subtrair(5,1))
 console.log(multiplicar(4,2))
 
