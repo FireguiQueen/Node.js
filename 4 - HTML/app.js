@@ -2,9 +2,14 @@ const express = require('express')
 const app = express()
 
 
+// Importando arquivos estáticos (como o CSS por exemplo)
+app.use(express.static(__dirname))
+
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html')
 })
+
+
 
 // __dirname é para mostrar que iremos pegar um arquivo que está em nosso diretório, ou seja "4 - HTML"
 
